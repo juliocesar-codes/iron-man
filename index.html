@@ -15,9 +15,10 @@
 
 <body class="h-screen w-screen">
     <header class="w-full">
-        <nav class="flex justify-between m-8">
+        <nav class="flex justify-between m-8 md:justify-between">
             <img src="./img/marvel-logo.svg" alt="Logo Da Marvel Studios">
-            <menu class="items-center flex gap-10 text-lg ">
+            <p class="md:hidden items-center flex text-[32px]">Menu</p>
+            <menu class="items-center flex gap-10 text-lg max-lg:hidden">
                 <a href="">Home</a>
                 <a href="">Avengers</a>
                 <a href="">Celestials</a>
@@ -30,17 +31,17 @@
             </menu>
         </nav>
     </header>
-    <main class="flex gap-20 items-center relative z-30 ">
+    <main class="flex gap-20 items-center relative z-30 md:flex-none">
         <div>
             <div class="m-10">
-                <p class="text-[#505050] ">Marvel Character</p>
-                <h1 class="text-7xl font-bold text-[#8A2D5E] pb-8">IRON MAN</h1>
+                <p class="text-[#505050] max-lg:hidden">Marvel Character</p>
+                <h1 class="text-7xl font-bold text-[#8A2D5E] pb-8 ">IRON MAN</h1>
                 <p class="text-2xl font-semibold">Tony Stark</p>
                 <p class="font-ligth w-md pb-10">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he
                     be rendered unconscious.
                 </p>
-                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px] h-15 w-[362px] gap-6">Are you Marvel fan?</button>
-                <div class="absolute bottom-0 pb-3">
+                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px] h-15 w-[362px] gap-6 ">Are you Marvel fan?</button>
+                <div class="absolute bottom-0 pb-3 max-lg:hidden">
                     <img src="./img/icon-github.svg" alt="">
                     <img src="./img/icon-figma.svg" alt="">
                     <img src="./img/icon-twitter.svg" alt="">
@@ -48,8 +49,8 @@
                 </div>
             </div>
         </div>
-        <img src="./img/iron-man.svg" alt="Foto do Iron Man">
-        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left absolute -right-53 pb-8">iron man</h2>
+        <img class="" src="./img/iron-man.svg" alt="Foto do Iron Man">
+        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left absolute -right-53 pb-8 max-lg:hidden">iron man</h2>
         <a class="absolute bottom-0 right-20 flex gap-1 text-[23px]" href="">Next Marvel Character <img src="./img/Circle Arrow Right.svg" alt="#"></a>
     </main>
 
