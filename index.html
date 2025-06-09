@@ -13,7 +13,7 @@
     </style>
 </head>
 
-<body>
+<body class="h-screen w-screen">
     <header class="w-full">
         <nav class="flex justify-between m-8">
             <img src="./img/marvel-logo.svg" alt="Logo Da Marvel Studios">
@@ -30,9 +30,9 @@
             </menu>
         </nav>
     </header>
-    <main class="flex justify-between">
-        <div class="">
-            <div class="m-8">
+    <main class="flex gap-20 items-center relative z-30 ">
+        <div>
+            <div class="m-10">
                 <p class="text-base font-ligth">Marvel Character</p>
                 <h1 class="text-7xl font-bold text-[#8A2D5E]">IRON MAN</h1>
                 <p class="text-2xl font-semibold">Tony Stark</p>
@@ -40,21 +40,22 @@
                     be rendered unconscious.
                 </p>
                 <button class="rounded-none bg-black text-[#fafafa] h-15 ">Are you Marvel fan?</button>
+                <div class="absolute bottom-0">
+                    <img src="./img/icon-github.png" alt="">
+                    <img src="./img/icon-figma.png" alt="">
+                    <img src="./img/icon-twitter.png" alt="">
+                    <img src="./img/icon-instagram.png" alt="">
+                </div>
             </div>
         </div>
         <img src="./img/iron-man.svg" alt="Foto do Iron Man">
-        <h2 class="text-2xl -rotate-90 h-full bg-red-100 text-[#8A2D5E] text-9xl font-bold">iron man</h2>
-
+        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left absolute -right-53">iron man</h2>
+        <a class="absolute bottom-0 right-20 flex gap-1 text-[23px]" href="">Next Marvel Character <img src="./img/Circle Arrow Right.svg" alt="#"></a>
     </main>
-    <footer>
-        <div class="redes-sociais">
-            <img src="./img/icon-github.png" alt="">
-            <img src="./img/icon-figma.png" alt="">
-            <img src="./img/icon-twitter.png" alt="">
-            <img src="./img/icon-instagram.png" alt="">
-        </div>
-        <p>Next Marvel Character</p>
-    </footer>
+
+
+
+
 </body>
 
 </html>
