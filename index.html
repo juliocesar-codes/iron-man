@@ -6,18 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iron Man</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-         :root {
-            --iron-man: #8A2D5E
-        }
-    </style>
 </head>
 
-<body class="h-screen w-screen">
+<body class=" overflow-hidden">
     <header class="w-full">
-        <nav class="flex justify-between m-8 md:justify-between">
+        <nav class="flex lg:justify-around m-8 md:justify-around sm:w-screen sm:justify-between lg:w-full">
             <img src="./img/marvel-logo.svg" alt="Logo Da Marvel Studios">
-            <p class="md:hidden items-center flex text-[32px]">Menu</p>
+            <p class="lg:hidden max-md min-md items-center flex text-[32px]">Menu</p>
             <menu class="items-center flex gap-10 text-lg max-lg:hidden">
                 <a href="">Home</a>
                 <a href="">Avengers</a>
@@ -31,17 +26,17 @@
             </menu>
         </nav>
     </header>
-    <main class="flex gap-20 items-center relative z-30 md:flex-none">
+    <main class="flex gap-20 items-center relative z-30 md:flex-none h-max justify-start">
         <div>
-            <div class="m-10">
+            <div class="m-10 md:absolute lg:relative lg:-bottom-0 md:-bottom-[200px] lg:-top-[100px]">
                 <p class="text-[#505050] max-lg:hidden">Marvel Character</p>
-                <h1 class="text-7xl font-bold text-[#8A2D5E] pb-8 ">IRON MAN</h1>
+                <h1 class="text-7xl font-bold text-[#8A2D5E] md:absolute lg:relative lg:top-0 md:-top-[790px]">IRON MAN</h1>
                 <p class="text-2xl font-semibold">Tony Stark</p>
-                <p class="font-ligth w-md pb-10">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he
+                <p class="font-ligth w-md pb-5 lg:w-[577px] md:w-[700px]">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he
                     be rendered unconscious.
                 </p>
-                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px] h-15 w-[362px] gap-6 ">Are you Marvel fan?</button>
-                <div class="absolute bottom-0 pb-3 max-lg:hidden">
+                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px]  h-15 md:w-[362px]">Are you Marvel fan?</button>
+                <div class="absolute bottom-0 max-lg:hidden flex flex-col lg:-bottom-[350px] gap-2">
                     <img src="./img/icon-github.svg" alt="">
                     <img src="./img/icon-figma.svg" alt="">
                     <img src="./img/icon-twitter.svg" alt="">
@@ -49,12 +44,12 @@
                 </div>
             </div>
         </div>
-        <img class="" src="./img/iron-man.svg" alt="Foto do Iron Man">
-        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left absolute -right-53 pb-8 max-lg:hidden">iron man</h2>
-        <a class="absolute bottom-0 right-20 flex gap-1 text-[23px]" href="">Next Marvel Character <img src="./img/Circle Arrow Right.svg" alt="#"></a>
+        <div class="md:w-[500px] lg:w-0"></div>
+        <img class="md:float-right" src="./img/iron-man.svg" alt="Foto do Iron Man">
+        <div class="md:w-[261px] lg:hidden"></div>
+        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left md:absolute -right-40 mb-20 opacity-50 max-lg:hidden lg:absolute">iron man</h2>
+        <a class="absolute bottom-0 right-20 flex gap-1 text-[23px] md:-bottom-[145px] lg:-bottom-[50px] lg:-right-4" href="">Next Marvel Character <img src="./img/Circle Arrow Right.svg" alt="#"></a>
     </main>
-
-
 
 
 </body>
