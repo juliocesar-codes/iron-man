@@ -10,11 +10,11 @@
 
 <body class="w-screen lg:overflow-hidden">
     <header class="w-full">
-        <nav class="flex justify-around items-center max-sm:w-full">
+        <nav class=" max-sm:w-full flex lg:justify-around m-8 md:justify-start sm:w-screen sm:justify-between lg:w-[1400px] max-sm:justify-between items-center">
             <img class="max-sm:h-[32px]" src="./img/marvel-logo.svg" alt="Logo Da Marvel Studios">
-            <div class=" max-sm:hidden lg:hidden"></div>
-            <p class=" lg:hidden items-center flex text-[32px]">Menu</p>
-            <div class=" max-sm:hidden lg:hidden"></div>
+            <div class="w-[150px] max-sm:hidden lg:hidden"></div>
+            <p class=" lg:hidden max-md min-md items-center flex text-[32px]">Menu</p>
+            <div class="w-[150px] max-sm:hidden lg:hidden"></div>
             <menu class="items-center flex gap-10 text-lg max-lg:hidden">
                 <a href="">Home</a>
                 <a href="">Avengers</a>
@@ -28,17 +28,18 @@
             </menu>
         </nav>
     </header>
-    <main class="flex gap-20 items-center relative z-30 md:flex-none h-max max-lg:justify-center">
+    <main class="flex gap-20 items-center relative z-30 md:flex-none h-max justify-start">
         <div>
-            <div class="m-10 md:absolute lg:relative lg:-bottom-0 md:-bottom-[300px] lg:-top-[100px] max-sm:absolute max-sm:-bottom-[225px]">
+            <div class="absolute m-10 md:absolute lg:relative lg:-bottom-0 md:-bottom-[200px] lg:-top-[100px] max-sm:absolute max-sm:-bottom-[225px]">
                 <p class="text-[#505050] max-lg:hidden">Marvel Character</p>
-                <h1 class="text-[80px] font-bold text-[#8A2D5E] lg:relative lg:top-0 md:-top-[790px]">IRON MAN</h1>
+                <h1 class="max-sm:absolute max-sm:-top-[600px] text-7xl font-bold text-[#8A2D5E] md:absolute lg:relative lg:top-0 md:-top-[790px] absolute -top-[450px]">IRON MAN</h1>
                 <p class="text-2xl font-semibold">Tony Stark</p>
-                <p class="font-ligth w-md pb-5 lg:w-[577px] md:w-[700px] text-[15px] max-md:hidden">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he
+
+                <p class="font-ligth w-md pb-5 lg:w-[577px] md:w-[700px] text-[15px]">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he
                     be rendered unconscious.
                 </p>
-                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px] h-15 md:w-[362px] relative -bottom-[30px]">Are you Marvel fan?</button>
-                <div class="absolute flex flex-col -bottom-[220px] -left-[100px] gap-2 max-md:hidden">
+                <button class="rounded-none bg-[#383838] text-[#fafafa] text-[19px]  h-15 md:w-[362px] min-lg:static -bottom-[300px]">Are you Marvel fan?</button>
+                <div class="absolute bottom-0 max-lg:hidden flex flex-col lg:-bottom-[350px] gap-2">
                     <img src="./img/icon-github.svg" alt="">
                     <img src="./img/icon-figma.svg" alt="">
                     <img src="./img/icon-twitter.svg" alt="">
@@ -47,13 +48,11 @@
             </div>
         </div>
         <div class="md:w-[500px] lg:w-0"></div>
-        <img class="lg:h-[650px] -top-[20px] relative -right-[150px] md:-left-[1px] md:-bottom-[130px] md:h-[800px]" src="./img/iron-man.svg " alt="Foto do Iron Man ">
-        <div class="md:w-[261px] lg:hidden "></div>
-        <h2 class="-rotate-90 text-[#8A2D5E] text-[120px] lg:-right-[100px] font-bold h-min text-left md:absolute opacity-50 max-lg:hidden lg:fixed static">iron man</h2>
-        <a class="flex s lg:-bottom-[320px] -right-[100px] relative" href=" ">Next Marvel Character <img class="max-sm:hidden " src="./img/Circle Arrow Right.svg " alt="# "></a>
+        <img class="md:float-right max-sm:h-[583px]" src="./img/iron-man.svg" alt="Foto do Iron Man">
+        <div class="md:w-[261px] lg:hidden"></div>
+        <h2 class=" -rotate-90 text-[#8A2D5E] text-[180px] font-bold h-min text-left md:absolute -right-50 mb-20 opacity-50 max-lg:hidden lg:fixed">iron man</h2>
+        <a class="md:right-1 max-sm:absolute max-sm:-bottom-[175px] max-sm:-right-[40px] flex gap-1 text-[23px] md:-bottom-[145px] lg:-bottom-[10px] lg:-right-[400px] fixed -bottom-[100px] -right-[100px] md:absolute " href="">Next Marvel Character <img class="max-sm:hidden" src="./img/Circle Arrow Right.svg" alt="#"></a>
     </main>
 
 
 </body>
-
-</html>
