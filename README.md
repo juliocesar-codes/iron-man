@@ -1,4 +1,4 @@
-# 🎧 Projeto Final - Homem de Ferro
+# Projeto Final - Homem de Ferro
 
 ## Sobre o Projeto
 
